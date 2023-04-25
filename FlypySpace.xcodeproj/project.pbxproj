@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1911021B1F5E6FCB00B4F741 /* AppRater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911021A1F5E6FCB00B4F741 /* AppRater.swift */; };
+		192EAD5A1E9561BC00832950 /* ShopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192EAD591E9561BC00832950 /* ShopScene.swift */; };
+		1942CE2D1E92EC3800CF3742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE2C1E92EC3800CF3742 /* AppDelegate.swift */; };
+		1942CE2F1E92EC3800CF3742 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1942CE2E1E92EC3800CF3742 /* GameScene.sks */; };
+		1942CE311E92EC3800CF3742 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1942CE301E92EC3800CF3742 /* Actions.sks */; };
+		1942CE331E92EC3800CF3742 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE321E92EC3800CF3742 /* GameScene.swift */; };
+		1942CE351E92EC3800CF3742 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE341E92EC3800CF3742 /* GameViewController.swift */; };
+		1942CE381E92EC3800CF3742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1942CE361E92EC3800CF3742 /* Main.storyboard */; };
+		1942CE3A1E92EC3800CF3742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1942CE391E92EC3800CF3742 /* Assets.xcassets */; };
+		1942CE3D1E92EC3800CF3742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1942CE3B1E92EC3800CF3742 /* LaunchScreen.storyboard */; };
+		1942CE481E92EC3800CF3742 /* FlypySpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE471E92EC3800CF3742 /* FlypySpaceTests.swift */; };
+		1942CE531E92EC3800CF3742 /* FlypySpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE521E92EC3800CF3742 /* FlypySpaceUITests.swift */; };
+		1942CE611E92EC9400CF3742 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE601E92EC9400CF3742 /* Ship.swift */; };
+		1942CE631E92ED9200CF3742 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE621E92ED9200CF3742 /* GameManager.swift */; };
+		1942CE651E92EE6900CF3742 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE641E92EE6900CF3742 /* Extensions.swift */; };
+		1942CE671E92EF2900CF3742 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE661E92EF2900CF3742 /* MenuScene.swift */; };
+		1942CE691E92F23D00CF3742 /* GameCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942CE681E92F23D00CF3742 /* GameCenterHelper.swift */; };
+		1968AB411F31706E002F6CF3 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968AB401F31706E002F6CF3 /* GoogleMobileAds.framework */; };
+		198A54D01EAAD20C00CB4424 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A54CF1EAAD20C00CB4424 /* IAPHelper.swift */; };
+		199209241EEA2E49006DC211 /* TutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199209231EEA2E49006DC211 /* TutorialScene.swift */; };
+		19BC982F1E94199300A50FB4 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BC982E1E94199300A50FB4 /* Coin.swift */; };
+		19BE20941EAA7A2C00AD3D87 /* LevelOneScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BE20931EAA7A2C00AD3D87 /* LevelOneScene.swift */; };
+		19C508501EA6FCB2005D1F43 /* SelectShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C5084F1EA6FCB2005D1F43 /* SelectShipScene.swift */; };
+		19C508521EA6FCC1005D1F43 /* ShipList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C508511EA6FCC1005D1F43 /* ShipList.swift */; };
+		19E341301EA9D671000D37FB /* SelectLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E3412F1EA9D671000D37FB /* SelectLevelScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1942CE441E92EC3800CF3742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1942CE211E92EC3700CF3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1942CE281E92EC3700CF3742;
+			remoteInfo = FlypySpace;
+		};
+		1942CE4F1E92EC3800CF3742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1942CE211E92EC3700CF3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1942CE281E92EC3700CF3742;
+			remoteInfo = FlypySpace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1911021A1F5E6FCB00B4F741 /* AppRater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRater.swift; sourceTree = "<group>"; };
+		192EAD591E9561BC00832950 /* ShopScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopScene.swift; sourceTree = "<group>"; };
+		1942CE291E92EC3700CF3742 /* FlypySpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlypySpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1942CE2C1E92EC3800CF3742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1942CE2E1E92EC3800CF3742 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1942CE301E92EC3800CF3742 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1942CE321E92EC3800CF3742 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1942CE341E92EC3800CF3742 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1942CE371E92EC3800CF3742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1942CE391E92EC3800CF3742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1942CE3C1E92EC3800CF3742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1942CE3E1E92EC3800CF3742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1942CE431E92EC3800CF3742 /* FlypySpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlypySpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1942CE471E92EC3800CF3742 /* FlypySpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlypySpaceTests.swift; sourceTree = "<group>"; };
+		1942CE491E92EC3800CF3742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1942CE4E1E92EC3800CF3742 /* FlypySpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlypySpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1942CE521E92EC3800CF3742 /* FlypySpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlypySpaceUITests.swift; sourceTree = "<group>"; };
+		1942CE541E92EC3800CF3742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1942CE601E92EC9400CF3742 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		1942CE621E92ED9200CF3742 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		1942CE641E92EE6900CF3742 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1942CE661E92EF2900CF3742 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		1942CE681E92F23D00CF3742 /* GameCenterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenterHelper.swift; sourceTree = "<group>"; };
+		1968AB401F31706E002F6CF3 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		198A54CF1EAAD20C00CB4424 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		199209231EEA2E49006DC211 /* TutorialScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialScene.swift; sourceTree = "<group>"; };
+		19BC982E1E94199300A50FB4 /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		19BE20931EAA7A2C00AD3D87 /* LevelOneScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOneScene.swift; sourceTree = "<group>"; };
+		19C5084F1EA6FCB2005D1F43 /* SelectShipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectShipScene.swift; sourceTree = "<group>"; };
+		19C508511EA6FCC1005D1F43 /* ShipList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipList.swift; sourceTree = "<group>"; };
+		19E3412F1EA9D671000D37FB /* SelectLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLevelScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1942CE261E92EC3700CF3742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1968AB411F31706E002F6CF3 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1942CE401E92EC3800CF3742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1942CE4B1E92EC3800CF3742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1942CE201E92EC3700CF3742 = {
+			isa = PBXGroup;
+			children = (
+				1968AB401F31706E002F6CF3 /* GoogleMobileAds.framework */,
+				198A54CF1EAAD20C00CB4424 /* IAPHelper.swift */,
+				19BE20931EAA7A2C00AD3D87 /* LevelOneScene.swift */,
+				19E3412F1EA9D671000D37FB /* SelectLevelScene.swift */,
+				1942CE681E92F23D00CF3742 /* GameCenterHelper.swift */,
+				19C5084F1EA6FCB2005D1F43 /* SelectShipScene.swift */,
+				1911021A1F5E6FCB00B4F741 /* AppRater.swift */,
+				19C508511EA6FCC1005D1F43 /* ShipList.swift */,
+				1942CE2B1E92EC3700CF3742 /* FlypySpace */,
+				1942CE461E92EC3800CF3742 /* FlypySpaceTests */,
+				1942CE511E92EC3800CF3742 /* FlypySpaceUITests */,
+				1942CE2A1E92EC3700CF3742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1942CE2A1E92EC3700CF3742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1942CE291E92EC3700CF3742 /* FlypySpace.app */,
+				1942CE431E92EC3800CF3742 /* FlypySpaceTests.xctest */,
+				1942CE4E1E92EC3800CF3742 /* FlypySpaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1942CE2B1E92EC3700CF3742 /* FlypySpace */ = {
+			isa = PBXGroup;
+			children = (
+				1942CE2C1E92EC3800CF3742 /* AppDelegate.swift */,
+				1942CE2E1E92EC3800CF3742 /* GameScene.sks */,
+				1942CE301E92EC3800CF3742 /* Actions.sks */,
+				1942CE321E92EC3800CF3742 /* GameScene.swift */,
+				192EAD591E9561BC00832950 /* ShopScene.swift */,
+				1942CE661E92EF2900CF3742 /* MenuScene.swift */,
+				199209231EEA2E49006DC211 /* TutorialScene.swift */,
+				1942CE601E92EC9400CF3742 /* Ship.swift */,
+				19BC982E1E94199300A50FB4 /* Coin.swift */,
+				1942CE621E92ED9200CF3742 /* GameManager.swift */,
+				1942CE641E92EE6900CF3742 /* Extensions.swift */,
+				1942CE341E92EC3800CF3742 /* GameViewController.swift */,
+				1942CE361E92EC3800CF3742 /* Main.storyboard */,
+				1942CE391E92EC3800CF3742 /* Assets.xcassets */,
+				1942CE3B1E92EC3800CF3742 /* LaunchScreen.storyboard */,
+				1942CE3E1E92EC3800CF3742 /* Info.plist */,
+			);
+			path = FlypySpace;
+			sourceTree = "<group>";
+		};
+		1942CE461E92EC3800CF3742 /* FlypySpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				1942CE471E92EC3800CF3742 /* FlypySpaceTests.swift */,
+				1942CE491E92EC3800CF3742 /* Info.plist */,
+			);
+			path = FlypySpaceTests;
+			sourceTree = "<group>";
+		};
+		1942CE511E92EC3800CF3742 /* FlypySpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1942CE521E92EC3800CF3742 /* FlypySpaceUITests.swift */,
+				1942CE541E92EC3800CF3742 /* Info.plist */,
+			);
+			path = FlypySpaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1942CE281E92EC3700CF3742 /* FlypySpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1942CE571E92EC3800CF3742 /* Build configuration list for PBXNativeTarget "FlypySpace" */;
+			buildPhases = (
+				1942CE251E92EC3700CF3742 /* Sources */,
+				1942CE261E92EC3700CF3742 /* Frameworks */,
+				1942CE271E92EC3700CF3742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlypySpace;
+			productName = FlypySpace;
+			productReference = 1942CE291E92EC3700CF3742 /* FlypySpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1942CE421E92EC3800CF3742 /* FlypySpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1942CE5A1E92EC3800CF3742 /* Build configuration list for PBXNativeTarget "FlypySpaceTests" */;
+			buildPhases = (
+				1942CE3F1E92EC3800CF3742 /* Sources */,
+				1942CE401E92EC3800CF3742 /* Frameworks */,
+				1942CE411E92EC3800CF3742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1942CE451E92EC3800CF3742 /* PBXTargetDependency */,
+			);
+			name = FlypySpaceTests;
+			productName = FlypySpaceTests;
+			productReference = 1942CE431E92EC3800CF3742 /* FlypySpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1942CE4D1E92EC3800CF3742 /* FlypySpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1942CE5D1E92EC3800CF3742 /* Build configuration list for PBXNativeTarget "FlypySpaceUITests" */;
+			buildPhases = (
+				1942CE4A1E92EC3800CF3742 /* Sources */,
+				1942CE4B1E92EC3800CF3742 /* Frameworks */,
+				1942CE4C1E92EC3800CF3742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1942CE501E92EC3800CF3742 /* PBXTargetDependency */,
+			);
+			name = FlypySpaceUITests;
+			productName = FlypySpaceUITests;
+			productReference = 1942CE4E1E92EC3800CF3742 /* FlypySpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1942CE211E92EC3700CF3742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Brandon Torres";
+				TargetAttributes = {
+					1942CE281E92EC3700CF3742 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					1942CE421E92EC3800CF3742 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1942CE281E92EC3700CF3742;
+					};
+					1942CE4D1E92EC3800CF3742 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1942CE281E92EC3700CF3742;
+					};
+				};
+			};
+			buildConfigurationList = 1942CE241E92EC3700CF3742 /* Build configuration list for PBXProject "FlypySpace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1942CE201E92EC3700CF3742;
+			productRefGroup = 1942CE2A1E92EC3700CF3742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1942CE281E92EC3700CF3742 /* FlypySpace */,
+				1942CE421E92EC3800CF3742 /* FlypySpaceTests */,
+				1942CE4D1E92EC3800CF3742 /* FlypySpaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1942CE271E92EC3700CF3742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942CE381E92EC3800CF3742 /* Main.storyboard in Resources */,
+				1942CE2F1E92EC3800CF3742 /* GameScene.sks in Resources */,
+				1942CE3A1E92EC3800CF3742 /* Assets.xcassets in Resources */,
+				1942CE3D1E92EC3800CF3742 /* LaunchScreen.storyboard in Resources */,
+				1942CE311E92EC3800CF3742 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1942CE411E92EC3800CF3742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1942CE4C1E92EC3800CF3742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1942CE251E92EC3700CF3742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199209241EEA2E49006DC211 /* TutorialScene.swift in Sources */,
+				19BE20941EAA7A2C00AD3D87 /* LevelOneScene.swift in Sources */,
+				19BC982F1E94199300A50FB4 /* Coin.swift in Sources */,
+				1942CE331E92EC3800CF3742 /* GameScene.swift in Sources */,
+				19C508501EA6FCB2005D1F43 /* SelectShipScene.swift in Sources */,
+				1942CE651E92EE6900CF3742 /* Extensions.swift in Sources */,
+				1942CE611E92EC9400CF3742 /* Ship.swift in Sources */,
+				1942CE671E92EF2900CF3742 /* MenuScene.swift in Sources */,
+				19E341301EA9D671000D37FB /* SelectLevelScene.swift in Sources */,
+				1942CE691E92F23D00CF3742 /* GameCenterHelper.swift in Sources */,
+				1942CE351E92EC3800CF3742 /* GameViewController.swift in Sources */,
+				1942CE2D1E92EC3800CF3742 /* AppDelegate.swift in Sources */,
+				19C508521EA6FCC1005D1F43 /* ShipList.swift in Sources */,
+				1911021B1F5E6FCB00B4F741 /* AppRater.swift in Sources */,
+				192EAD5A1E9561BC00832950 /* ShopScene.swift in Sources */,
+				198A54D01EAAD20C00CB4424 /* IAPHelper.swift in Sources */,
+				1942CE631E92ED9200CF3742 /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1942CE3F1E92EC3800CF3742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942CE481E92EC3800CF3742 /* FlypySpaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1942CE4A1E92EC3800CF3742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942CE531E92EC3800CF3742 /* FlypySpaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1942CE451E92EC3800CF3742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1942CE281E92EC3700CF3742 /* FlypySpace */;
+			targetProxy = 1942CE441E92EC3800CF3742 /* PBXContainerItemProxy */;
+		};
+		1942CE501E92EC3800CF3742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1942CE281E92EC3700CF3742 /* FlypySpace */;
+			targetProxy = 1942CE4F1E92EC3800CF3742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1942CE361E92EC3800CF3742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1942CE371E92EC3800CF3742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1942CE3B1E92EC3800CF3742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1942CE3C1E92EC3800CF3742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1942CE551E92EC3800CF3742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1942CE561E92EC3800CF3742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1942CE581E92EC3800CF3742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FlypySpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.FlypySpace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1942CE591E92EC3800CF3742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FlypySpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.FlypySpace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1942CE5B1E92EC3800CF3742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlypySpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.FlypySpaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlypySpace.app/FlypySpace";
+			};
+			name = Debug;
+		};
+		1942CE5C1E92EC3800CF3742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlypySpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.FlypySpaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlypySpace.app/FlypySpace";
+			};
+			name = Release;
+		};
+		1942CE5E1E92EC3800CF3742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlypySpaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.FlypySpaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FlypySpace;
+			};
+			name = Debug;
+		};
+		1942CE5F1E92EC3800CF3742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlypySpaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.FlypySpaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FlypySpace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1942CE241E92EC3700CF3742 /* Build configuration list for PBXProject "FlypySpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1942CE551E92EC3800CF3742 /* Debug */,
+				1942CE561E92EC3800CF3742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1942CE571E92EC3800CF3742 /* Build configuration list for PBXNativeTarget "FlypySpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1942CE581E92EC3800CF3742 /* Debug */,
+				1942CE591E92EC3800CF3742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1942CE5A1E92EC3800CF3742 /* Build configuration list for PBXNativeTarget "FlypySpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1942CE5B1E92EC3800CF3742 /* Debug */,
+				1942CE5C1E92EC3800CF3742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1942CE5D1E92EC3800CF3742 /* Build configuration list for PBXNativeTarget "FlypySpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1942CE5E1E92EC3800CF3742 /* Debug */,
+				1942CE5F1E92EC3800CF3742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1942CE211E92EC3700CF3742 /* Project object */;
+}
